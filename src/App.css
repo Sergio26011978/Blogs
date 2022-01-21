@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+.container {
+  border: 5px solid#e2635f;
+  border-radius: 4px;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.header {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  color: #d3130c;
+}
+.card-header {
+  font-size: 35px;
+  color: rgb(10, 163, 10);
+  text-align:center;
+}
+.card-body {
+  font-size: 20px ;
+  color: #0e0e0f;
+  background-color: antiquewhite;
+}
